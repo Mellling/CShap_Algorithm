@@ -1,6 +1,6 @@
 ﻿namespace StudyTest
 {
-    internal class Program
+    internal class ListTest
     {
         static void Main(string[] args)
         {
