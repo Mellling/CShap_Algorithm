@@ -12,32 +12,32 @@ namespace DataStructure
 	 * 한 클래스의 인터페이스를 사용하고자 하는 다른 인터페이스로 변환
 	 ******************************************************/
 
-    public class AdapterStack<T>
+    public class AdapterQueue<T>
     {
-        private List<T> container;
+        private LinkedList<T> container;
 
-        public AdapterStack()
+        public AdapterQueue()
         {
-            container = new List<T>();
+            container = new LinkedList<T>();
         }
 
         public int Count { get { return container.Count; } }
 
-        public void Push(T item)
+        public void Enqueue(T item)
         {
-            container.Add(item);
+            container.AddLast(item);
         }
 
-        public T Pop()
+        public T Dequeue()
         {
-            T item = container[container.Count - 1];
-            container.RemoveAt(container.Count - 1);
-            return item;
+            T value = container.First<T>();
+            container.RemoveFirst();
+            return value;
         }
 
         public T Peek()
         {
-            return container[container.Count - 1];
+            return container.First<T>();
         }
     }
 }
