@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             int num;
+            int last = 0;
 
             OutBestScore outBestScore = new OutBestScore();
 
@@ -16,6 +17,11 @@
 
                 int day = (int)char.GetNumericValue(nums[0]);
 
+                if (day > last)
+                {
+                    last = day;
+                }
+
                 int score = int.Parse(nums.Substring(2, nums.Length - 2));
 
                 outBestScore.PutDays(new int[] { day, score }, score);
@@ -23,6 +29,7 @@
             }
 
             outBestScore.PutNum(num);
+            outBestScore.PutLast(last);
 
             outBestScore.BestScore();
         }
@@ -33,10 +40,16 @@
             PriorityQueue<int[], int> scores = new PriorityQueue<int[], int>();
 
             int num;
+            int last;
 
             public void PutNum(int num)
             {
                 this.num = num;
+            }
+
+            public void PutLast(int last)
+            {
+                this.last = last;
             }
 
             public void PutDays(int[] input, int score) // 날짜 얼마 안 남은 수
@@ -56,7 +69,7 @@
 
                 int count = 1;
 
-                while (count <= num)
+                while (count <= num && nowDay <= last)
                 {
                     int[] up = leftDays.Dequeue();
                     int[] down = scores.Dequeue();
