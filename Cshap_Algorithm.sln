@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Stack", "03.Stack\03.Sta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Queue", "04.Queue\04.Queue.csproj", "{7D3FF97B-CF45-4ABE-AC78-287661F1AB68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BinarySearchTree", "BinarySearchTree\05.BinarySearchTree.csproj", "{764B136A-EE94-4273-940E-EFA525E6ABAF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Heap", "06.Heap\06.Heap.csproj", "{DC3ED6D3-91F3-436B-A3D7-078A5FDD28D5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.HashTable", "07.HashTable\07.HashTable.csproj", "{3B5FF395-9ECB-4AE0-AC2C-FDCBDC1A4930}"
@@ -25,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.DesignTechnique", "08.De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.Sorting", "09.Sorting\09.Sorting.csproj", "{A926E25C-AF67-40A3-86E6-A82BF0B2A73D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Searching", "10.Searching\10.Searching.csproj", "{5AEEB3C3-0EEE-4D69-B8CD-90490E6FA8BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Searching", "10.Searching\10.Searching.csproj", "{5AEEB3C3-0EEE-4D69-B8CD-90490E6FA8BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BinarySearchTree", "05.BinarySearchTree\05.BinarySearchTree.csproj", "{F74BC489-EC64-4FF8-9F03-44D82EB369F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,6 @@ Global
 		{7D3FF97B-CF45-4ABE-AC78-287661F1AB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D3FF97B-CF45-4ABE-AC78-287661F1AB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D3FF97B-CF45-4ABE-AC78-287661F1AB68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{764B136A-EE94-4273-940E-EFA525E6ABAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{764B136A-EE94-4273-940E-EFA525E6ABAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{764B136A-EE94-4273-940E-EFA525E6ABAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{764B136A-EE94-4273-940E-EFA525E6ABAF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC3ED6D3-91F3-436B-A3D7-078A5FDD28D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC3ED6D3-91F3-436B-A3D7-078A5FDD28D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3ED6D3-91F3-436B-A3D7-078A5FDD28D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +77,10 @@ Global
 		{5AEEB3C3-0EEE-4D69-B8CD-90490E6FA8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEEB3C3-0EEE-4D69-B8CD-90490E6FA8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEEB3C3-0EEE-4D69-B8CD-90490E6FA8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
