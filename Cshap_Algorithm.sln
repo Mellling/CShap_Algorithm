@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Searching", "10.Searchin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.BinarySearchTree", "05.BinarySearchTree\05.BinarySearchTree.csproj", "{F74BC489-EC64-4FF8-9F03-44D82EB369F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ShortestPath", "11.ShortestPath\11.ShortestPath.csproj", "{30A055E8-A435-4D22-8535-68167DCDA20C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74BC489-EC64-4FF8-9F03-44D82EB369F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A055E8-A435-4D22-8535-68167DCDA20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A055E8-A435-4D22-8535-68167DCDA20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A055E8-A435-4D22-8535-68167DCDA20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A055E8-A435-4D22-8535-68167DCDA20C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
